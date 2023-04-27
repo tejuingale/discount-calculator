@@ -2,35 +2,31 @@
     color: white;
 }
 body{
-    background-color: rgb(247,237,219);
+    background-color: rgb(247, 237, 219);
 }
 .container{
     width: 800px;
     background-color: #0d5c63;
-    margin-left: 300px;
-    margin-right: 250px;
+    margin-left: 450px;
     margin-top: 300px;
-    margin-bottom: 300px;
     border-radius: 10px;
+
 }
-h2{
+h2 {
     font-weight: bolder;
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-shadow: 2px 2px 3px black;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: 'Righteous', cursive;
 }
 p{
-    
-font-family: 'Roboto', sans-serif;
-font-size: x-large;
-margin-left: 20px;
-
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+    margin-left: 20px;
 }
 form{
-    margin-left: 20px;
+    margin-left: 20px; 
     font-size: x-large;
     font-weight: bolder;
 }
@@ -41,6 +37,11 @@ input{
     border-radius: 10px;
     color: #0d5c63;
     font-weight: bolder;
+    font-size: x-large;
+}
+#link{
+    margin-left: 650px;
+    color: white; 
     font-size: x-large;
 }
 #labelBill{
@@ -55,10 +56,14 @@ input{
     margin-left: 235px;
     font-size: x-large;
     margin-top: 25px;
+    background-color: rgb(26, 153, 26);
 }
 #calculator:hover{
     background-color: burlywood;
 }
 #total{
-    text-align: center;
+    text-align: centers;
+}
+nav{
+    margin-left: 600px;
 }
