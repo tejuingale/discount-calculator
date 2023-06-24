@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount-Calculator </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- social media link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container {
+            width: 650px;
+            background-color: #0d5c63;
+            margin-left: 350px;
+            margin-top: 100px;
+            border-radius: 10px;
+            height: 550px;
+
+        }
+
+        #calculator {
+            padding: 20px;
+            width: 200px;
+            color: #0d5c63;
+            font-weight: bolder;
+            border-radius: 10px;
+            margin-left: 235px;
+            font-size: x-large;
+            margin-top: 25px;
+            background-color: rgb(26, 153, 26);
+        }
+
+        form {
+            margin-left: 20px;
+            font-size: x-large;
+            font-weight: bolder;
+            color: white;
+        }
+
+        input {
+            width: 300px;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            color: #0d5c63;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+
+        h2 {
+            font-weight: bolder;
+            text-align: center;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px black;
+            font-family: 'Righteous', cursive;
+            color: white;
+        }
+
+        p {
+            font-family: 'Roboto Slab', serif;
+            font-size: x-large;
+            margin-left: 20px;
+            color: white;
+        }
+
+        #calculator:hover {
+            background-color: burlywood;
+        }
+
+        #labelBill {
+            margin-right: 82px;
+        }
+
+        #link {
+            margin-left: 450px;
+            color: white;
+            font-size: x-large;
+        }
+
+        #firstLink {
+            color: white;
+        }
+
+        #secondLink {
+            color: white;
+        }
+
+        #thirdLink {
+            color: white;
+        }
+
+        #fourthLink {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2> DISCOUNT CALCULATOR </h2>
+        <P> Enter the bill amount and discount in percentage </P>
+        <form>
+            <lable id="labelBill"> Bill Amount </lable>
+            <input type="number" id="bill" maxlength="5"><br>
+            <lable> Discount Percentage </lable>
+            <input type="number" id="discount" maxlength="5">
+            <button id="calculator" type="button"> Calculator </button>
+
+        </form>
+
+        <p id="total"> Total Discount Amount == </p>
+        <nav>
+
+            <p id="link">
+                <a id="media1" href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" aria-hidden="true"
+                        id="firstLink"></i></a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"
+                        id="secondLink"></i></a>&nbsp;&nbsp;
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"
+                        id="thirdLink"></i></a>&nbsp;&nbsp;
+                <a id="media4" href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"
+                        aria-hidden="true" id="fourthLink"></i></a>
+            </p>
+        </nav>
+    </div>
+    <sript src ="script.js"></sript>
+  
+
+</body>
+
+</html>  

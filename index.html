@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,36 +13,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <!-- social media link -->
-    <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-
 <body>
-
+    
     <div class="container">
         <h2> Discount Calculator </h2>
         <p>Enter the Bill amount and discount in percentage</p>
         <form>
-            <label id="labelBill"> Bill Amount </label>
-            <input type="number"> <br>
-            <label> Discount Percentage </label>
-            <input type="number"> <br>
-            <button id="calculator"> Calculator </button>
+            <label id="labelBill"> Bill Amount  </label>
+            <input type="number" id="bill"> <br>
+            <label> Discount Percentage  </label>
+            <input type="number" id="discount"> <br>
+            <button id="calculator" type="button"> Calculator </button>
         </form>
         <p id="total"> Total Discount Amount == </p>
-        <nav>
+
+       <div class="socielmedia">
+            
+            <a href="https://www.google.com/" target="_blank">
+            <i class="fa fa-google" id="a" aria-hidden="true"></i></a>
+         
+     
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+            <i class="fa fa-instagram" id="b"  aria-hidden="true"></i></a>
+         
+         
+             <a href="https://facebook.com/" target="blank">
+             <i class="fa fa-facebook-square" id="c" aria-hidden="true"></i></a>
+     
+             <a href="https://youtube.com/" target="blank">
+             <i class="fa fa-youtube" id="d" aria-hidden="true"></i>
+
+       </div>  
+    </div>
+       
+    <script src="script.js"></script>
     
-        <p id="link">
-                <a id="media1" href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
-                <a  href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-                <a  href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp;&nbsp;
-                <a id="media4"  href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </p>
-        </nav>
-        
-</div>
-
+      
 </body>
-
 </html>
